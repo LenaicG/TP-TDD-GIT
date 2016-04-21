@@ -2,11 +2,10 @@ package iut.tdd;
 
 public class RomanNumerals {
 	public String convertToRoman(String arabe) {
-		return "I";
+		String resultat="";
+		for(int i=0;i<Integer.valueOf(arabe); i++){
+			resultat = resultat +"I";
+		}
+		return resultat;
 	}
-
-	public Object convertFromRoman(String roman) {
-		return "1";
-	}
-
 }
